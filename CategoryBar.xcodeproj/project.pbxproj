@@ -14,6 +14,10 @@
 		AB2AEBEF1CE89FC200CD974C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2AEBED1CE89FC200CD974C /* LaunchScreen.storyboard */; };
 		AB2AEBFA1CE89FC200CD974C /* CategoryBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AEBF91CE89FC200CD974C /* CategoryBarTests.swift */; };
 		AB2AEC051CE89FC200CD974C /* CategoryBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AEC041CE89FC200CD974C /* CategoryBarUITests.swift */; };
+		AB2AEC131CE8A00B00CD974C /* CategoryBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AEC121CE8A00B00CD974C /* CategoryBar.swift */; };
+		AB2AEC151CE9788400CD974C /* HeaderBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AEC141CE9788400CD974C /* HeaderBarView.swift */; };
+		AB2AEC171CE978B700CD974C /* collectionVieBarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AEC161CE978B700CD974C /* collectionVieBarConfig.swift */; };
+		AB2AEC191CE9843A00CD974C /* WaterMelonTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2AEC181CE9843A00CD974C /* WaterMelonTV.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		AB2AEC001CE89FC200CD974C /* CategoryBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB2AEC041CE89FC200CD974C /* CategoryBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryBarUITests.swift; sourceTree = "<group>"; };
 		AB2AEC061CE89FC200CD974C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2AEC121CE8A00B00CD974C /* CategoryBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryBar.swift; sourceTree = "<group>"; };
+		AB2AEC141CE9788400CD974C /* HeaderBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderBarView.swift; sourceTree = "<group>"; };
+		AB2AEC161CE978B700CD974C /* collectionVieBarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionVieBarConfig.swift; sourceTree = "<group>"; };
+		AB2AEC181CE9843A00CD974C /* WaterMelonTV.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaterMelonTV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB257E651CE9B3F700BE72FF /* CateGoryBarWithHeader */ = {
+			isa = PBXGroup;
+			children = (
+				AB2AEC161CE978B700CD974C /* collectionVieBarConfig.swift */,
+				AB2AEC121CE8A00B00CD974C /* CategoryBar.swift */,
+				AB2AEC141CE9788400CD974C /* HeaderBarView.swift */,
+				AB2AEC181CE9843A00CD974C /* WaterMelonTV.swift */,
+			);
+			name = CateGoryBarWithHeader;
+			sourceTree = "<group>";
+		};
 		AB2AEBD81CE89FC200CD974C = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +116,7 @@
 		AB2AEBE31CE89FC200CD974C /* CategoryBar */ = {
 			isa = PBXGroup;
 			children = (
+				AB257E651CE9B3F700BE72FF /* CateGoryBarWithHeader */,
 				AB2AEBE41CE89FC200CD974C /* AppDelegate.swift */,
 				AB2AEBE61CE89FC200CD974C /* ViewController.swift */,
 				AB2AEBE81CE89FC200CD974C /* Main.storyboard */,
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2AEC131CE8A00B00CD974C /* CategoryBar.swift in Sources */,
 				AB2AEBE71CE89FC200CD974C /* ViewController.swift in Sources */,
 				AB2AEBE51CE89FC200CD974C /* AppDelegate.swift in Sources */,
+				AB2AEC191CE9843A00CD974C /* WaterMelonTV.swift in Sources */,
+				AB2AEC151CE9788400CD974C /* HeaderBarView.swift in Sources */,
+				AB2AEC171CE978B700CD974C /* collectionVieBarConfig.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +509,7 @@
 				AB2AEC0B1CE89FC200CD974C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB2AEC0C1CE89FC200CD974C /* Build configuration list for PBXNativeTarget "CategoryBarTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +518,7 @@
 				AB2AEC0E1CE89FC200CD974C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB2AEC0F1CE89FC200CD974C /* Build configuration list for PBXNativeTarget "CategoryBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +527,7 @@
 				AB2AEC111CE89FC200CD974C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
